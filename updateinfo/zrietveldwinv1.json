@@ -1,0 +1,12 @@
+{
+  "isServiceFinished": false,
+  "apps": [
+    {
+      "appVersion": { "level1": 1, "level2": 0, "level3": 0 },
+      "cpuTypes": ["arm64", "x86_64"],
+      "macOSMin": { "level1": 12 },
+      "macOSMax": { "level1": -1 },
+      "url": "https://example.com/"
+    }
+  ]
+}
