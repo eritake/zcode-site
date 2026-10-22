@@ -1,0 +1,18 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: manual
+    label: マニュアル
+    type: collection
+    path: manual
+    view:
+      fields: [title]
+    fields:
+      - name: title
+        label: タイトル
+        type: string
+      - name: body
+        label: 本文
+        type: rich-text
